@@ -222,3 +222,24 @@ span p {
 .story {
     width: 20rem;
 }
+
+.evolve {
+     text-align: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #3a0ca3;
+    font-size: 3rem;
+    letter-spacing: 0.2px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    margin-top: 80px;
+}
+
+.evolve a {
+    color: white;
+
+}
