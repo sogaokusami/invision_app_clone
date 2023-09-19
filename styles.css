@@ -127,8 +127,8 @@ img {
 
 .big-card {
     /* border: 2px solid red; */
-    max-width: 60rem;
-     padding-top: 20px;
+    max-width: 70rem;
+    padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 70px;
     padding-right: 20px;
@@ -168,4 +168,57 @@ span p {
 
 #role {
     font-size: 10px;
+}
+
+.smart {
+    text-align: center;
+    justify-content: start;
+    max-width: 65rem;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    /* border: 2px solid red; */
+}
+
+.smart h1 {
+    font-size: 4rem;
+    letter-spacing: 0.2px;
+    padding-top: 80px;
+    font-weight: 500;
+}
+
+.team1 {
+    border: none;
+    width: 20rem;
+    height: 20rem;
+    background: #3a86ff;
+}
+.team2 {
+    border: none;
+    width: 20rem;
+    height: 20rem;
+    background: #3a0ca3;
+}
+.team3 {
+    border: none;
+    width: 20rem;
+    height: 20rem;
+    background: #072acb;
+}
+
+.all-teams {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.customer-story {
+    display: flex;
+    max-width: 70rem;
+    justify-content: space-between;
+    margin:0 auto;
+}
+
+.story {
+    width: 20rem;
 }
