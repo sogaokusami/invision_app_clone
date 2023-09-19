@@ -10,17 +10,30 @@ body {
 
 .main-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     background: #e6e8ea;
-    padding: 20px;
-
+    padding: 10px;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
 }
 
-
-/* .sign{
+.sign{
     display: flex;
-    justify-content: space-between;
-} */
+    background: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    max-width: 40rem;
+    padding: 10px 40px;
+    box-sizing: border-box;
+} 
+
+.hamburger {
+    background: #e6e8ea;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
 
 ul {
     list-style-type: none;
@@ -39,7 +52,8 @@ a:link {
 
 #sign-up {
 border-radius: 2rem;
-padding: 5px 10px;
+padding: 10px 25px;
+margin-left: 10px;
 border: transparent;
 background: rgb(225, 74, 99);
 color: rgb(177, 196, 230);
